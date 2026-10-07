@@ -128,6 +128,14 @@ void WelcomePage::chooseLocation()
     validate();
 }
 
+void WelcomePage::clearFields()
+{
+    m_password->clear();
+    m_confirm->clear();
+    m_password->setRevealed(false);
+    m_confirm->setRevealed(false);
+}
+
 void WelcomePage::showError(const QString &text)
 {
     m_error->setText(text);

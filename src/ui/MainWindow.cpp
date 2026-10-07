@@ -148,6 +148,9 @@ void MainWindow::unlock(const QString &password)
 void MainWindow::opened()
 {
     m_settings.setLastVault(m_vaultPath);
+    // Ana şifre, kasa açıkken gizli sayfalardaki kutularda beklemesin
+    m_welcome->clearFields();
+    m_unlock->reset();
     m_vault->reload();
     m_stack->setCurrentWidget(m_vault);
     m_autoLock->start(m_settings.autoLockMinutes());

@@ -15,6 +15,7 @@ class WelcomePage : public QWidget
 public:
     WelcomePage(const QString &defaultPath, QWidget *parent);
     void showError(const QString &text);
+    void clearFields(); // kasa açılınca ana şifre kutularda kalmasın
 
 signals:
     void createRequested(const QString &path, const QString &password);
