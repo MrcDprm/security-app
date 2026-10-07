@@ -2,7 +2,7 @@
 
 [English](README.md) | **Türkçe**
 
-C++20 ve Qt 6 ile yazılmış masaüstü şifre yöneticisi. Bütün kayıtlar tek bir ana şifreyle açılan, tek bir şifreli kasa dosyasında tutulur.
+C++ ve Qt ile yazılmış masaüstü şifre yöneticisi. Bütün kayıtlar tek bir ana şifreyle açılan, tek bir şifreli kasa dosyasında tutulur.
 
 > 🚧 Geliştirme sürüyor. Bu README proje planıdır, v1.0.0'da tamamlanacak.
 
@@ -33,7 +33,7 @@ C++20 ve Qt 6 ile yazılmış masaüstü şifre yöneticisi. Bütün kayıtlar t
 - Windows Hello ile kilit açma.
 
 ## Kullanılan Teknolojiler
-- C++20, Qt 6 (Widgets, Network, Test)
+- C++, Qt (Widgets, Network, Test)
 - libsodium (Argon2id, XChaCha20-Poly1305)
 - CMake, MinGW-w64 (MSYS2 UCRT64)
 - windeployqt, Inno Setup

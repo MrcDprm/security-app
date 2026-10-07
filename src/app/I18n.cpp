@@ -37,9 +37,9 @@ const QHash<QString, Text> &texts()
         {"data_folder", {"Veri klasörü", "Data folder"}},
         {"view_on_github", {"GitHub'da görüntüle", "View on GitHub"}},
         {"about_text",
-         {"C++20 ve Qt 6 ile yazılmış şifre yöneticisi. Kasa, Argon2id ile ana şifreden türetilen anahtarla "
+         {"C++ ve Qt ile yazılmış şifre yöneticisi. Kasa, Argon2id ile ana şifreden türetilen anahtarla "
           "XChaCha20-Poly1305 kullanılarak şifrelenir ve sadece bu bilgisayarda durur.",
-          "A password manager written in C++20 and Qt 6. The vault is encrypted with XChaCha20-Poly1305 using a key "
+          "A password manager written in C++ and Qt. The vault is encrypted with XChaCha20-Poly1305 using a key "
           "derived from the master password with Argon2id, and it stays on this computer."}},
         {"credits",
          {"Kelime listesi: EFF Short Wordlist (CC BY 3.0). Sızıntı verisi: Have I Been Pwned.",

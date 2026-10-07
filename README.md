@@ -2,7 +2,7 @@
 
 **English** | [Türkçe](README.tr.md)
 
-A desktop password manager written in C++20 and Qt 6. All entries are kept in a single encrypted vault file, unlocked with one master password.
+A desktop password manager written in C++ and Qt. All entries are kept in a single encrypted vault file, unlocked with one master password.
 
 > 🚧 Work in progress. This README is the project plan and will be completed at v1.0.0.
 
@@ -33,7 +33,7 @@ A desktop password manager written in C++20 and Qt 6. All entries are kept in a 
 - Windows Hello unlock.
 
 ## Tech Stack
-- C++20, Qt 6 (Widgets, Network, Test)
+- C++, Qt (Widgets, Network, Test)
 - libsodium (Argon2id, XChaCha20-Poly1305)
 - CMake, MinGW-w64 (MSYS2 UCRT64)
 - windeployqt, Inno Setup
