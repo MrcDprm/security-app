@@ -21,8 +21,8 @@ constexpr Limit TEXT_FIELDS[] = {{"title", 200},  {"username", 300}, {"password"
                                  {"url", 2000},   {"notes", 20000},  {"totp", 256}};
 
 // Argon2 ayarları da dosyadan geldiği için sınırlı: aşırı büyük bellek isteyen bir dosya programı kilitlemesin
-constexpr quint32 MIN_OPS = 1, MAX_OPS = 20;
-constexpr quint32 MIN_MEMORY = 8u * 1024 * 1024, MAX_MEMORY = 1024u * 1024 * 1024;
+constexpr quint32 MIN_OPS = 1, MAX_OPS = 10;
+constexpr quint32 MIN_MEMORY = 8u * 1024 * 1024, MAX_MEMORY = 512u * 1024 * 1024; // varsayılan 256 MB'ın iki katı
 
 QString isoDate(const QDateTime &date)
 {
