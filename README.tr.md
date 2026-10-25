@@ -140,14 +140,6 @@ ISCC installer\PasswordVault.iss
 - Gerçek CSV dışa aktarımlarını (tırnaklı alanlar, alan içinde satır sonu, farklı sütun sıraları) okudum ve içe aktarılan her alanı doğruladım.
 - Sadece mutlu yolu değil güvenlik özelliklerini de test ettim: kurcalanmış başlık ve içerik, yanlış şifre, desteklenmeyen sürüm ve hazırlanmış bellek parametrelerinin hepsinin birim testi var.
 
-## Gelecek Planları
-
-- Otomatik doldurma için tarayıcı eklentisi
-- Cihazlar arası eşitleme
-- Kayıtlara dosya ekleme
-- Windows Hello ile kilit açma
-- Kayıt başına şifre geçmişi
-
 ## Lisans
 
 [MIT](LICENSE). Kelime listesi: [EFF Short Wordlist](https://www.eff.org/dice) (CC BY 3.0 US). Sızıntı verisi: [Have I Been Pwned](https://haveibeenpwned.com/Passwords).
