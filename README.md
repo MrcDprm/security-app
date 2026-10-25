@@ -140,14 +140,6 @@ ISCC installer\PasswordVault.iss
 - I parsed real-world CSV exports (quoted fields, line breaks inside fields, different column orders) and validated every imported field.
 - I tested the security properties, not just the happy path: tampered headers and contents, wrong passwords, unsupported versions and crafted memory parameters all have unit tests.
 
-## Future Plans
-
-- Browser extension for auto-fill
-- Sync between devices
-- File attachments in entries
-- Windows Hello unlock
-- Password history per entry
-
 ## License
 
 [MIT](LICENSE). Word list: [EFF Short Wordlist](https://www.eff.org/dice) (CC BY 3.0 US). Breach data: [Have I Been Pwned](https://haveibeenpwned.com/Passwords).
